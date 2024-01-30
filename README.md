@@ -1,6 +1,6 @@
 # SaaS AI Web Application
 
-![Logo](public\logo.png)
+![Logo](./public/logo.png)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -20,11 +20,11 @@ The SaaS AI Web Application is a versatile platform that leverages OpenAI and Re
  <div style="display: flex; justify-content: space-between;">
     <div>
         <p align="center">Landing Page</p>
-        <img src="public\SC-1.png" alt="Landing Page" width="400">
+        <img src="./public/SC-1.png" alt="Landing Page" width="400">
     </div>
     <div>
         <p align="center">Dashboard</p>
-        <img src="public\SC-2.png" alt="Dashboard" width="400">
+        <img src="./public/SC-2.png" alt="Dashboard" width="400">
     </div>
 </div>
 
