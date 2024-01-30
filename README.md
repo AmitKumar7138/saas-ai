@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SaaS AI Web Application
 
-## Getting Started
+![Logo](public\logo.png)
 
-First, run the development server:
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
+The SaaS AI Web Application is a versatile platform that leverages OpenAI and Replicate APIs to provide users with advanced features such as image generation, music creation, chat functionalities, and code assistance. It offers a seamless and secure user experience with features like user authentication, payment processing, and real-time notifications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Try it out
+ [SAAS AI App](https://saas-ai-gilt.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ <div style="display: flex; justify-content: space-between;">
+    <div>
+        <p align="center">Landing Page</p>
+        <img src="public\SC-1.png" alt="Landing Page" width="400">
+    </div>
+    <div>
+        <p align="center">Dashboard</p>
+        <img src="public\SC-2.png" alt="Dashboard" width="400">
+    </div>
+</div>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
+- **AI-Powered Functionality:** Generate images, create music, chat with AI, and get code assistance.
+- **Secure User Authentication:** Sign in with email or Google using Clerk for a safe and convenient onboarding process.
+- **Efficient Backend:** Utilize Node.js, Prisma, and Stripe for a reliable and scalable backend infrastructure.
+- **Interactive Frontend:** Enhance user engagement with React, Next.js, Tailwind CSS, and Radix UI components.
+- **Payment Processing:** Handle secure and seamless payments with Stripe integration.
+- **Real-Time Notifications:** Keep users informed with React Hot Toast for real-time feedback.
+- **Form Handling:** Ensure a smooth user experience with React Hook Form and Zod for form validation.
+- **High Code Quality:** Maintain code readability and best practices with ESLint and TypeScript.
+- **Dynamic Content:** Render dynamic content and markdown support with React Markdown.
+- **User Support:** Foster user interaction with crisp-sdk-web for effective support and feedback.
 
-## Learn More
+## Technologies Used
+- Next.js
+- React
+- Tailwind CSS
+- Node.js
+- Prisma
+- Stripe
+- Clerk
+- OpenAI
+- Replicate
+- React Hot Toast
+- React Hook Form
+- Zod
+- ESLint
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
+1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+2. Install dependencies: `npm install`
+3. Configure environment variables as needed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
+1. Run the development server: `npm run dev`
+2. Access the application in your browser at `http://localhost:3000`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+1. Fork the project.
+2. Create your feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Submit a pull request.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This project is licensed under the [MIT License](LICENSE).
